@@ -1,10 +1,10 @@
-Time Complexity: O(N2)
-Auxiliary Space: O(1)
+##Time Complexity: O(N2)
+##Auxiliary Space: O(1)
 
-Worst Case Analysis for Bubble Sort:
+###Worst Case Analysis for Bubble Sort:
 The worst-case condition for bubble sort occurs when elements of the array are arranged in decreasing order.
 In the worst case, the total number of iterations or passes required to sort a given array is (n-1). 
-where ‘n’ is a number of elements present in the array.
+where â€˜nâ€™ is a number of elements present in the array.
 
   At pass 1 :  Number of comparisons = (n-1)
                      Number of swaps = (n-1)
@@ -25,7 +25,7 @@ Now , calculating total number of comparison required to sort the array
 = (n-1)*(n-1+1)/2  { by using sum of N natural Number formula }
 = n (n-1)/2    
 
-For Worst case:
+##For Worst case:
 
 Total number of swaps = Total number of comparison
 Total number of comparison (Worst case) = n(n-1)/2
@@ -39,7 +39,7 @@ This can be achieved by using one boolean variable.
 The boolean variable is used to check whether the values are swapped at least once in the inner loop
 
 
-Auxiliary Space: O(1)
+##Auxiliary Space: O(1)
 
 What is the Boundary Case for Bubble sort? 
 Bubble sort takes minimum time (Order of n) when elements are already sorted. 
