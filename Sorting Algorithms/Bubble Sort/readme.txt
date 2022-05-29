@@ -1,10 +1,10 @@
-Time Complexity: O(N2)
-Auxiliary Space: O(1)
+##Time Complexity: O(N2)
+##Auxiliary Space: O(1)
 
-Worst Case Analysis for Bubble Sort:
+##Worst Case Analysis for Bubble Sort:
 The worst-case condition for bubble sort occurs when elements of the array are arranged in decreasing order.
 In the worst case, the total number of iterations or passes required to sort a given array is (n-1). 
-where ‘n’ is a number of elements present in the array.
+where â€˜nâ€™ is a number of elements present in the array.
 
   At pass 1 :  Number of comparisons = (n-1)
                      Number of swaps = (n-1)
@@ -25,7 +25,7 @@ Now , calculating total number of comparison required to sort the array
 = (n-1)*(n-1+1)/2  { by using sum of N natural Number formula }
 = n (n-1)/2    
 
-For Worst case:
+##For Worst case:
 
 Total number of swaps = Total number of comparison
 Total number of comparison (Worst case) = n(n-1)/2
@@ -39,20 +39,20 @@ This can be achieved by using one boolean variable.
 The boolean variable is used to check whether the values are swapped at least once in the inner loop
 
 
-Auxiliary Space: O(1)
+##Auxiliary Space: O(1)
 
-What is the Boundary Case for Bubble sort? 
+##What is the Boundary Case for Bubble sort? 
 Bubble sort takes minimum time (Order of n) when elements are already sorted. 
 Hence it is best to check if the array is already sorted or not beforehand, to avoid O(N2) time complexity.
 
-Does sorting happens in place in Bubble sort?
+##Does sorting happens in place in Bubble sort?
 Yes, Bubble sort performs swapping of adjacent pairs without use of any major data structure. 
 Hence Bubble sort algorithm is an in-place algorithm.
 
-Is Bubble sort algorithm stable?
+##Is Bubble sort algorithm stable?
 Yes, bubble sort algorithm is stable.
 
-Where is Bubble sort algorithm used?
+##Where is Bubble sort algorithm used?
 Due to its simplicity, bubble sort is often used to introduce the concept of a sorting algorithm. 
 In computer graphics, it is popular for its capability to detect a very small error (like a swap of 
 just two elements) in almost-sorted arrays and fix it with just linear complexity (2n). 
